@@ -1,0 +1,248 @@
+*{
+   margin: 0px;
+   font-style: Arial;
+   border: border-box; 
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+    background-color: #0f1111;
+    color:white ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("chattogram-bangladesh-april-24-2023-260nw-2292992631.webp");
+    background-size: cover;
+    height: 50px;
+}
+/* box2 */
+.p1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.p2{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+}
+/* box3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: pink;
+    height: 40px;
+    width: 620px;
+    border-radius:4px ;
+}
+.select{
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+
+}
+.input{
+    height: 38px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    font-size: 1.2rem;
+}
+.card i{
+    font-size:1.5rem ;
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+.p{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box6 */
+.cart i{
+    font-size: 35px;
+}
+.cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* panal */
+.panal{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.options {
+    display: flex;
+    width: 70%;
+    font-size: 0.85rem;
+    gap: 15px;
+
+}
+.deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/* hero section */
+.hero{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.measage{
+    background-color: white;
+    height: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 25px;
+}
+/* content */
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:10px ;
+}
+.box-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+/* footer */
+.footer{
+    margin-top: 10px;
+}
+.foot-panal{
+    background-color: #374758;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panal2{
+    height: 400px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+a{
+    display: block;
+    margin:15px ;
+    font-size: 0.85rem;
+}
+.foot-panal3{
+    height: 70px;
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-logo{
+    height: 60px;
+    width: 120px;
+    background-image: url("chattogram-bangladesh-april-24-2023-260nw-2292992631.webp");
+    background-size: cover;
+}
+.foot-panal4{
+    height: 50px;
+    background-color: #374758;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.foot-panal4 a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width:768px){
+    .nav-search{
+        width: 285px !important;
+    }
+    .box{
+        width: 30%;
+    }
+}
+@media only screen and (max-width:425px){
+    .navbar{
+        display: none;
+    }
+    .box{
+        width: 100%;
+    }
+    .foot-panal2{
+        flex-wrap: wrap !important;
+    }
+    .foot-panal2 ul{
+        margin: 10px;
+        font-size: 0.7rem;
+    }
+    .foot-panal2 a{
+        margin: 10px;
+    }
+    
+}
+@media only screen and (max-width:425 ){
+    .panal span option{
+        font-size: 0.5rem;
+        
+    
+    }
+    
+}
